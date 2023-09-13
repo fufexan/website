@@ -19,7 +19,7 @@ highlight_code = false
 # Put all your custom variables here
 
 menu = [
-    { name = "blog", url = "blog", trailing_slash = true },
+    # { name = "blog", url = "blog", trailing_slash = true },
     { name = "about", url = "about", trailing_slash = true },
 ]
 
@@ -28,6 +28,4 @@ email = "bWloYWlAZnVmZXhhbi5uZXQ="
 socials = [
     { name = "github", url = "https://github.com/fufexan", icon = "github" },
     { name = "linkedin", url = "https://www.linkedin.com/in/mihai-fufezan", icon = "linkedin" },
-    { name = "instagram", url = "https://instagram.com/fufexan", icon = "instagram" },
-    { name = "spotify", url = "https://open.spotify.com/user/mihifufe", icon = "spotify" },
 ]
