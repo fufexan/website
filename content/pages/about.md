@@ -4,7 +4,7 @@ template = "info-page.html"
 path = "about"
 +++
 
-Hi! I'm Mihai, a BSc student at TUCN, specialising in Electronics and Telecommunications.
+Hi! I'm Mihai, a B.Sc. student at TUCN, specializing in Electronics and Telecommunications.
 
 My interests include Nix/NixOS, Rust, and Linux in general. I usually hang out in the NixOS unofficial Discord, chatting and helping whenever I can.
 
