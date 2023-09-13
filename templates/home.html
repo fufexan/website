@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+
+<main>
+  {% if section.extra.section_path -%}
+  {% set extra_section = get_section(path=section.extra.section_path) %}
+  {% endif -%}
+
+  {%- if section.extra.header %}
+  {%- include "partials/home_banner.html" -%}
+  {% endif -%}
+</main>
+
+{% endblock main_content %}

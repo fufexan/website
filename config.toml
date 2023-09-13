@@ -1,0 +1,33 @@
+# The URL the site will be built for
+base_url = "https://fufexan.net"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+theme = "tabi"
+title = "fufexan's website"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+# Put all your custom variables here
+
+menu = [
+    { name = "blog", url = "blog", trailing_slash = true },
+    { name = "about", url = "about", trailing_slash = true },
+]
+
+email = "bWloYWlAZnVmZXhhbi5uZXQ="
+
+socials = [
+    { name = "github", url = "https://github.com/fufexan", icon = "github" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/mihai-fufezan", icon = "linkedin" },
+    { name = "instagram", url = "https://instagram.com/fufexan", icon = "instagram" },
+    { name = "spotify", url = "https://open.spotify.com/user/mihifufe", icon = "spotify" },
+]
