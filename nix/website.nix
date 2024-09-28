@@ -3,9 +3,7 @@
   inputs,
   ...
 }: {
-  perSystem = {pkgs, ...}: let
-    themeName = (builtins.fromTOML (builtins.readFile "${inputs.theme}/theme.toml")).name;
-  in {
+  perSystem = {pkgs, ...}: {
     packages.default = pkgs.stdenvNoCC.mkDerivation {
       pname = "fufexan-website";
       version = builtins.substring 0 8 self.lastModifiedDate;
@@ -15,17 +13,12 @@
         include = [
           (inputs.nix-filter.lib.inDirectory "content")
           (inputs.nix-filter.lib.inDirectory "static")
-          (inputs.nix-filter.lib.inDirectory "templates")
+          (inputs.nix-filter.lib.inDirectory "themes")
           "config.toml"
         ];
       };
 
       nativeBuildInputs = [pkgs.zola];
-
-      configurePhase = ''
-        mkdir -p "themes/${themeName}"
-        ln -s ${inputs.theme}/* "themes/${themeName}"
-      '';
 
       buildPhase = "zola build -o $out";
       dontInstall = true;

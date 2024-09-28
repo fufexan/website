@@ -1,0 +1,22 @@
+name = "no style, please!"
+description = "A (nearly) no-CSS, fast, minimalist Zola theme"
+license = "MIT"
+homepage = "https://github.com/fufexan/website/themes/no-style-please"
+min_version = "0.5.0"
+demo = "https://fufexan.net"
+
+[extra]
+
+# The theme author info: you!
+[author]
+name = "Mihai Fufezan"
+homepage = "https://fufexan.net"
+
+[original]
+name = "Ahmed Alaa"
+homepage = "https://gumx.cc"
+
+[original-of-original]
+author =  "Riccardo Graziosi"
+homepage = "https://riggraz.dev"
+repo = "https://github.com/riggraz/no-style-please"

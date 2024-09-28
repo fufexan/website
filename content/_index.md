@@ -1,12 +1,14 @@
 +++
-title = "Home"
-template = "home.html"
-
-[extra]
-header = { title = "Hello! I'm Mihai" }
+template = "index.html"
 +++
 
-I like making the sand think.
+Hello! I'm Mihai, welcome to my website. You won't find a whole lot of
+things here, mainly due to my laziness to write anything.
 
-[<<](https://nixwebr.ing/prev/fufexan) [Nix webring](https://nixwebr.ing)
-[🎲](https://nixwebr.ing/rand) [>>](https://nixwebr.ing/next/fufexan)
+~~Frequently Asked~~ Questions
+
+**Q**: how to get good at Nix?
+
+**A**: read Fernando (viper)'s [Nix lectures](https://ayats.org/blog/nix-tuto-1)
+
+

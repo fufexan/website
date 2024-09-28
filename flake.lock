@@ -56,22 +56,21 @@
         "flake-parts": "flake-parts",
         "nix-filter": "nix-filter",
         "nixpkgs": "nixpkgs",
-        "theme": "theme"
+        "systems": "systems"
       }
     },
-    "theme": {
-      "flake": false,
+    "systems": {
       "locked": {
-        "lastModified": 1714772419,
-        "narHash": "sha256-RrIlaropFJwssEKGTGqnkaRzR0jV9k05RtL+UWCK+fU=",
-        "owner": "welpo",
-        "repo": "tabi",
-        "rev": "f081a92f5939e141b6dbd7afe8ad1a9519d47f30",
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
         "type": "github"
       },
       "original": {
-        "owner": "welpo",
-        "repo": "tabi",
+        "owner": "nix-systems",
+        "repo": "default",
         "type": "github"
       }
     }

@@ -7,18 +7,14 @@
       url = "github:hercules-ci/flake-parts";
       inputs.nixpkgs-lib.follows = "nixpkgs";
     };
+    systems.url = "github:nix-systems/default";
 
     nix-filter.url = "github:numtide/nix-filter";
-
-    theme = {
-      url = "github:welpo/tabi";
-      flake = false;
-    };
   };
 
   outputs = inputs:
     inputs.flake-parts.lib.mkFlake {inherit inputs;} {
-      systems = ["x86_64-linux"];
+      systems = import inputs.systems;
       imports = [
         ./nix/dev.nix
         ./nix/website.nix

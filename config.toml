@@ -7,25 +7,31 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-theme = "tabi"
-title = "fufexan's website"
-
-[markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = false
+theme = "no-style-please"
+title = "~fufexan.net"
 
 [extra]
 # Put all your custom variables here
 
-menu = [
-    # { name = "blog", url = "blog", trailing_slash = true },
-    { name = "about", url = "about", trailing_slash = true },
+logo = "images/logo.png"
+
+# show navbar
+list_pages = true
+
+# disable useless stuff
+twitter_card = true
+
+header_nav = [
+    { name = "~fufexan.net", url = "/" },
+    # { name = "#tags", url = "/tags" },
+    # { name = "+categories", url = "/categories" },
+    # { name = "@contexts", url = "/contexts" },
+    { name = "about", url = "/about/" },
 ]
 
-email = "bWloYWlAZnVmZXhhbi5uZXQ="
-
-socials = [
-    { name = "github", url = "https://github.com/fufexan", icon = "github" },
-    { name = "linkedin", url = "https://www.linkedin.com/in/mihai-fufezan", icon = "linkedin" },
+footer_nav = [
+    { name = "< prev", url = "https://nixwebr.ing/prev/fufexan" },
+    { name = "Nix webring", url = "https://nixwebr.ing" },
+    { name = "🎲", url = "https://nixwebr.ing/rand" },
+    { name = "next >", url = "https://nixwebr.ing/next/fufexan" },
 ]
