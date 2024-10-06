@@ -19,3 +19,13 @@ I currently use and contribute to [NixOS](https://nixos.org). I sometimes hang o
 My desktop revolves around [Hyprland](https://hyprland.org), where I am the maintainer of the build systems/CI side of things.
 
 For more software, see [my GitHub](https://github.com/fufexan).
+
+CV available [here](https://cv.fufexan.net).
+
+{{ hr(data_content=" Contact ") }}
+
+Looking to talk? Find me here:
+* e-mail, mihai at fufexan.net
+* Matrix, @fufexan:matrix.to
+* Discord, @fufexan
+* Telegram, @fufexan
